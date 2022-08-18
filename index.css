@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&family=Caveat:wght@500&family=Quicksand:wght@700&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&family=Caveat:wght@500&family=Quicksand:wght@700&family=Kaushan+Script&display=swap');
 
 body {
   margin: 0;
@@ -8,63 +8,155 @@ body {
   text-align: center;
 }
 
-.profile-card{
+/*個資卡片*/
+.profile {
+  display: block;
+}
+  .profile-card {
+    display: inline-block;
+    margin: 100px;
+    padding: 60px 40px;
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #2c3a47;
+  }
+    /*大頭貼*/
+    .propic {
+      display: inline-block;
+      padding: 8px;
+      background: linear-gradient(130deg, #74b9ff, #e66767);
+      margin: auto;
+      border-radius: 50%;
+      background-size: 200% 200%;
+      animation: animated-gradient 2s linear infinite;
+    }
+      .propic img {
+        display: block;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+      }
+
+    /*名字*/
+    .name {
+      font-size: 50px;
+      font-weight: 600;
+      margin: 10px 0;
+      letter-spacing: 2.5px;
+      font-family: 'Kaushan Script';
+      color: #f2f2f2;
+    }
+
+    /*連結*/
+    .profile-icon {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+      .profile-icon a {
+        color: #f2f2f2;
+        width: 80px;
+        font-size: 30px;
+        text-decoration: none;
+        transition: .3s linear;
+      }
+      .profile-icon a:hover {
+        color: #e66767;
+      }
+
+/*作品集*/
+.portfolio a {
+  color: #f2f2f2;
+  font-size: 40px;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+/*盒勝*/
+.hoSeng {
   display: inline-block;
-  margin: 100px;
-  padding: 60px 40px;
-  width: 400px;
+  margin: 20px;
+  padding: 40px;
+  height: 450px;
+  width: 450px;
   text-align: center;
   border-radius: 8px;
   overflow: hidden;
   background: #2c3a47;
 }
+  .hoSeng-title {
+    color: #f2f2f2;
+    font-size: 27px;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  .hoSeng img {
+    padding: 40px 0px 0px;
+    width: 350px;
+  }
 
-.propic{
+  /*連結*/
+  .hoSeng-icon {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  .hoSeng-icon i {
+    color: #f2f2f2;
+    width: 80px;
+    font-size: 30px;
+    text-decoration: none;
+    transition: .3s linear;
+  }
+  .hoSeng-icon i:hover {
+    color: #e66767;
+  }
+    .hoSeng-icon a {
+      color: #f2f2f2;
+      width: 80px;
+      font-size: 30px;
+      text-decoration: none;
+      transition: .3s linear;
+    }
+    .hoSeng-icon a:hover {
+      color: #e66767;
+    }
+
+/*50音App*/
+.jp50on {
   display: inline-block;
-  padding: 8px;
-  background: linear-gradient(130deg, #74b9ff, #e66767);
-  margin: auto;
-  border-radius: 50%;
-  background-size: 200% 200%;
-  animation: animated-gradient 2s linear infinite;
+  margin: 20px;
+  padding: 40px;
+  height: 450px;
+  width: 450px;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #2c3a47;
 }
+  .jp50on-title {
+    color: #f2f2f2;
+    font-size: 27px;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  .jp50on img {
+    padding: 20px 0px 0px;
+    height: 350px;
+  }
 
-.propic img{
-  display: block;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-}
-
-.name{
-  font-size: 50px;
-  font-weight: 600;
-  margin: 10px 0;
-  letter-spacing: 2.5px;
-  font-family: 'Kaushan Script';
-  color: #f2f2f2;
-}
-
-.icon{
-  display: flex;
-  justify-content: center;
-  margin: 20px 0;
-}
-
-.icon a{
-  color: #f2f2f2;
-  width: 80px;
-  font-size: 30px;
-  text-decoration: none;
-  transition: .3s linear;
-}
-
-.icon a:hover{
-  color: #e66767;
-}
-
-.l-title {
-  color: #f2f2f2;
-  font-size: 40px;
-  font-family: 'Quicksand';
-}
+  /*連結*/
+  .jp50on-icon {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+    .jp50on-icon a {
+      color: #f2f2f2;
+      width: 80px;
+      font-size: 30px;
+      text-decoration: none;
+      transition: .3s linear;
+    }
+    .jp50on-icon a:hover {
+      color: #e66767;
+    }
