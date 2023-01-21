@@ -100,7 +100,7 @@ body {
     font-family: 'Noto Sans TC', sans-serif;
   }
   .hoSeng-subTitle {
-    color: #f2f2f2;
+    color: #fff200;
     font-size: 20px;
     font-family: 'Noto Sans TC', sans-serif;
   }
@@ -162,5 +162,44 @@ body {
       transition: .3s linear;
     }
     .jp50on-icon a:hover {
+      color: #e66767;
+    }
+
+/*盒勝*/
+.RKRM {
+  display: inline-block;
+  margin: 20px;
+  padding: 40px;
+  height: 450px;
+  width: 450px;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #2c3a47;
+}
+  .RKRM-title {
+    color: #f2f2f2;
+    font-size: 27px;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  .RKRM img {
+    padding: 100px 0px 115px;
+    width: 400px;
+  }
+
+  /*連結*/
+  .RKRM-icon {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+    .RKRM-icon a {
+      color: #f2f2f2;
+      width: 80px;
+      font-size: 30px;
+      text-decoration: none;
+      transition: .3s linear;
+    }
+    .RKRM-icon a:hover {
       color: #e66767;
     }
