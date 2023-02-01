@@ -165,6 +165,45 @@ body {
       color: #e66767;
     }
 
+/*編曲試作集*/
+.MusicDemos {
+  display: inline-block;
+  margin: 20px;
+  padding: 40px;
+  height: 450px;
+  width: 450px;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #2c3a47;
+}
+  .MusicDemos-title {
+    color: #f2f2f2;
+    font-size: 27px;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  .MusicDemos img {
+    padding: 60px 0 85px;
+    width: 400px;
+  }
+
+  /*連結*/
+  .MusicDemos-icon {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+    .MusicDemos-icon a {
+      color: #f2f2f2;
+      width: 80px;
+      font-size: 30px;
+      text-decoration: none;
+      transition: .3s linear;
+    }
+    .MusicDemos-icon a:hover {
+      color: #e66767;
+    }
+
 /*盒勝*/
 .RKRM {
   display: inline-block;
