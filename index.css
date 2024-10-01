@@ -297,8 +297,8 @@ body {
       color: #e66767;
     }
 
-/*盒勝*/
-.RKRM {
+/*潮畫線*/
+.DW {
   display: inline-block;
   margin: 20px;
   padding: 40px;
@@ -309,29 +309,29 @@ body {
   overflow: hidden;
   background: #2c3a47;
 }
-  .RKRM-title {
+  .DW-title {
     color: #f2f2f2;
     font-size: 27px;
     font-family: 'Noto Sans TC', sans-serif;
   }
-  .RKRM img {
+  .DW img {
     padding: 50px 0px 70px;
     width: 400px;
   }
 
   /*連結*/
-  .RKRM-icon {
+  .DW-icon {
     display: flex;
     justify-content: center;
     margin: 20px 0;
   }
-    .RKRM-icon a {
+    .DW-icon a {
       color: #f2f2f2;
       width: 80px;
       font-size: 30px;
       text-decoration: none;
       transition: .3s linear;
     }
-    .RKRM-icon a:hover {
+    .DW-icon a:hover {
       color: #e66767;
     }
